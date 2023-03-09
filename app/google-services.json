@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65069321441",
+    "firebase_url": "https://uog-media.firebaseio.com",
+    "project_id": "uog-media",
+    "storage_bucket": "uog-media.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65069321441:android:f880399f5986f025",
+        "android_client_info": {
+          "package_name": "com.example.uog_media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65069321441-06m30pbl7gpk1pdjulq9mltu4eiht707.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uog_media",
+            "certificate_hash": "a209ec5e394a8f8af39e31536b879cbcdb33fb00"
+          }
+        },
+        {
+          "client_id": "65069321441-rnd0u43rd281jm329nfipkqfctljcri7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA52oSecAwZjT8VjwhKXPvFmdeXf_K1D_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65069321441-rnd0u43rd281jm329nfipkqfctljcri7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

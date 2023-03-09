@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetupActivity"
+    android:background="@drawable/register"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/profile" />
+
+    <EditText
+        android:id="@+id/setup_username"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="310dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="user name"
+        android:inputType="textMultiLine"
+        android:background="@drawable/inputs"
+        android:padding="14dp"
+        android:drawableLeft="@drawable/username"/>
+
+    <EditText
+        android:id="@+id/setup_full_name"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="full name"
+        android:inputType="textMultiLine"
+        android:background="@drawable/inputs"
+        android:padding="14dp"
+        android:drawableLeft="@drawable/name"
+        />
+
+    <EditText
+        android:id="@+id/setup_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="type s for student,l for lecturer,f for staff,p for parent,o for other"
+        android:inputType="textMultiLine"
+        android:background="@drawable/inputs"
+        android:padding="14dp"
+        android:drawableLeft="@drawable/country"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+
+
+        android:layout_marginTop="555dp"
+        android:ems="10"
+        android:gravity="start|top"
+
+
+
+        android:padding="14dp"
+        android:drawableLeft="@drawable/name"
+
+        />
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="225dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/buttons"
+        android:padding="16dp"
+        android:text="save"
+        android:textSize="24sp"
+     />
+
+
+</RelativeLayout>

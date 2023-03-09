@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UoG_Media</string>
+    <string name="drawer_open">Drawer open</string>
+    <string name="drawer_close">Drawer close</string>
+    <string-array name="numbers">
+        <item>Adiss Abebq</item>
+        <item>Bahirdar</item>
+        <item>Jimma</item>
+        <item>Mekelle</item>
+        <item>dembidollo</item>
+        <item>debre birhan</item>
+        <item>hawassa</item>
+        <item>Arbaminch</item>
+        <item>debre tabor</item>
+        <item>Axum</item>
+        <item>Gondar</item>
+        <item>dembidolo</item>
+        <item>debark</item>
+        <item>asossa</item>
+        <item>mizantipi</item>
+        <item>debre markos</item>
+        <item>wollega</item>
+        <item>adigrat</item>
+        <item>wollo</item>
+        <item>semera</item>
+
+    </string-array>
+</resources>
